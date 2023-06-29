@@ -18,7 +18,8 @@ pip install -r requireiments-dev.txt
 
 Para conferir qualidade de código:
 
-'''console
+'''
+Console
 flake8
 '''
 
