@@ -126,7 +126,7 @@ setup(
     package_data=find_package_data(PACKAGE, only_in_packages=False),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
-        "Environment :: Web Environment",
+        "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
