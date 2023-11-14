@@ -103,12 +103,12 @@ def find_package_data(
     return out
 
 
-PACKAGE = "tekton"
-NAME = "tekton"
-DESCRIPTION = "Routing web apps by convention"
-AUTHOR = "Renzo Nuccitelli"
-AUTHOR_EMAIL = "renzo.n@gmail.com"
-URL = "https://github.com/renzon/tekton-micro"
+PACKAGE = "libpythonpro"
+NAME = PACKAGE
+DESCRIPTION = "Módulo para exemplificar construção de projetos Python"
+AUTHOR = "Sérgio Henrique"
+AUTHOR_EMAIL = "sergio.henrique.farm@gmail.com"
+URL = "https://github.com/serghenr/libpythonpro"
 VERSION = __import__(PACKAGE).__version__
 
 
