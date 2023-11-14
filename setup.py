@@ -109,14 +109,14 @@ DESCRIPTION = "Módulo para exemplificar construção de projetos Python"
 AUTHOR = "Sérgio Henrique"
 AUTHOR_EMAIL = "sergio.henrique.farm@gmail.com"
 URL = "https://github.com/serghenr/libpythonpro"
-VERSION = __import__(PACKAGE).__version__
+VERSION = __import__(PACKAGE).__verstion__
 
 
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=URL,
+    long_description=read('README.md'),
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     license="BSD",
