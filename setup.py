@@ -132,7 +132,7 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.10"
-        "Framework :: Paste",
+        "Framework :: Pytest",
     ],
     zip_safe=False,
 )
