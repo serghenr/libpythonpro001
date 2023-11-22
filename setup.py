@@ -103,7 +103,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
+PACKAGE = "libpythonpro-teste-sh"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python"
 AUTHOR = "Sérgio Henrique"
