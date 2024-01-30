@@ -19,8 +19,8 @@ jobs:
           architecture: x64
       - name: Instalar dependências
         run: |
-          pip install -q pipenv
-          pipenv sync --dev
+          pip install -U pip
+          pip install -r requirements.txt
       - name: Rodar flake8
         uses: py-actions/flake8@v1
         with:
