@@ -19,4 +19,6 @@ def buscar_avatar(usuario):
 
 if __name__ == '__main__':
 
-    print(buscar_avatar('serghenr'))
+    input_nome_usuario = input('Digite o nome do usuário do GitHub: ')
+
+    print(buscar_avatar(input_nome_usuario))

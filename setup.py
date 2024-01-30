@@ -103,7 +103,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro-teste-sh"
+PACKAGE = "libpythonpro"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python"
 AUTHOR = "Sérgio Henrique"
@@ -117,7 +117,7 @@ setup(
     version=VERSION,
     description=DESCRIPTION,
     long_description=read('README.md'),
-    long_description_content_type = 'text/markdown',
+    long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     license=read('LICENSE'),
@@ -134,7 +134,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Framework :: Pytest",
     ],
-    install_requires = [
+    install_requires=[
         'requests'
         ],
     zip_safe=False,
